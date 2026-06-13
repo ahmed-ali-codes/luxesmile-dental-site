@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LuxeSmile Dental Clinic – Cosmetic, restorative & family dentistry with advanced technology and a gentle touch. Book your appointment today." />
+  <title>LuxeSmile Dental Clinic – Your Smile, Redesigned.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__logo" id="logo-link">
+        <div class="navbar__logo-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 3C11 3 7 6.5 7 11C7 13.5 8.5 15.5 8.5 18C8.5 21 9 26 11.5 26C13 26 13.5 24 14.5 22C15 20.5 15.5 19.5 16 19.5C16.5 19.5 17 20.5 17.5 22C18.5 24 19 26 20.5 26C23 26 23.5 21 23.5 18C23.5 15.5 25 13.5 25 11C25 6.5 21 3 16 3Z" fill="#0ea5a0" stroke="#0ea5a0" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="navbar__logo-text">
+          <span class="navbar__logo-brand">LuxeSmile</span>
+          <span class="navbar__logo-sub">DENTAL CLINIC</span>
+        </div>
+      </a>
+
+      <nav class="navbar__nav" id="main-nav">
+        <a href="#home" class="navbar__link active" id="nav-home">Home</a>
+        <a href="#about" class="navbar__link" id="nav-about">About</a>
+        <a href="#services" class="navbar__link" id="nav-services">Services</a>
+        <a href="#results" class="navbar__link" id="nav-results">Results</a>
+        <a href="#doctors" class="navbar__link" id="nav-doctors">Doctors</a>
+        <a href="#reviews" class="navbar__link" id="nav-reviews">Reviews</a>
+        <a href="#contact" class="navbar__link" id="nav-contact">Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="tel:+971541234567" class="navbar__phone" id="navbar-phone">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5 19.79 19.79 0 0 1 1.66 5 2 2 0 0 1 3.62 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 5.5 5.5l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          +971 54 123 4567
+        </a>
+        <a href="#contact" class="btn btn--primary" id="navbar-book-btn">Book Appointment</a>
+      </div>
+
+      <button class="navbar__hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#home" class="mobile-nav__link" id="mob-home">Home</a>
+    <a href="#about" class="mobile-nav__link" id="mob-about">About</a>
+    <a href="#services" class="mobile-nav__link" id="mob-services">Services</a>
+    <a href="#results" class="mobile-nav__link" id="mob-results">Results</a>
+    <a href="#doctors" class="mobile-nav__link" id="mob-doctors">Doctors</a>
+    <a href="#reviews" class="mobile-nav__link" id="mob-reviews">Reviews</a>
+    <a href="#contact" class="mobile-nav__link" id="mob-contact">Contact</a>
+    <a href="#contact" class="btn btn--primary" style="margin-top:12px;" id="mob-book-btn">Book Appointment</a>
+  </div>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <!-- Background Image -->
+      <div class="hero__bg" data-animate="fade-in">
+        <img src="images/hero-image.png" alt="Happy dental patient smiling in chair" class="hero__bg-img" />
+      </div>
+
+      <div class="container hero__inner">
+        <!-- Left Content -->
+        <div class="hero__content" data-animate="fade-up">
+          <div class="hero__badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Premium Dental Care
+          </div>
+
+          <h1 class="hero__heading">
+            Your Smile,<br />
+            <span class="hero__heading--teal">Redesigned.</span>
+          </h1>
+
+          <p class="hero__sub">
+            Cosmetic, restorative & family dentistry<br />
+            with advanced technology and a gentle touch.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary btn--lg" id="hero-book-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Book Appointment
+            </a>
+            <a href="https://wa.me/971541234567" class="btn btn--outline btn--lg" id="hero-whatsapp-btn" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp Us
+            </a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="hero__stat" id="stat-google">
+              <div class="hero__stat-icon hero__stat-icon--google">
+                <svg width="18" height="18" viewBox="0 0 24 24"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="#4285f4"/></svg>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>Google Rating</span>
+              </div>
+            </div>
+            <div class="hero__stat" id="stat-patients">
+              <div class="hero__stat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+              </div>
+              <div>
+                <strong>12,000+</strong>
+                <span>Happy Patients</span>
+              </div>
+            </div>
+            <div class="hero__stat" id="stat-hours">
+              <div class="hero__stat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Open 7 Days</strong>
+                <span>Flexible Hours</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center Image Removed (moved to background) -->
+
+        <!-- Right Floating Cards -->
+        <div class="hero__cards" data-animate="fade-left">
+          <!-- AI Assistant Card -->
+          <div class="hero-card" id="hero-card-ai">
+            <div class="hero-card__header">
+              <div class="hero-card__icon hero-card__icon--dark">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h4"/></svg>
+              </div>
+              <span>AI Appointment Assistant</span>
+            </div>
+            <p class="hero-card__text">Hi 👋 I can help you book your appointment.</p>
+            <a href="#contact" class="btn btn--primary btn--sm hero-card__btn" id="ai-book-now-btn">Book Now</a>
+          </div>
+
+          <!-- Smile Preview Card -->
+          <div class="hero-card" id="hero-card-smile">
+            <div class="hero-card__row">
+              <img src="images/doctor-ayesha-khan.png" alt="Smile preview" class="hero-card__avatar" />
+              <div>
+                <strong class="hero-card__title">Smile Preview</strong>
+                <p class="hero-card__desc">See your new smile in seconds.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Before/After Card -->
+          <div class="hero-card hero-card--before-after" id="hero-card-before-after">
+            <div class="hero-card__label-row">
+              <span class="hero-card__tag">Before / After</span>
+            </div>
+            <div class="hero-card__ba-img-wrap">
+              <img src="images/before-after-hero.jpeg" alt="Before and after teeth" class="hero-card__ba-img" />
+              <div class="hero-card__ba-divider">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M5 9l-3 3 3 3M19 9l3 3-3 3M9 5l3-3 3 3M9 19l3 3 3-3"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STATS BAR ===================== -->
+    <section class="stats-bar" id="stats-bar">
+      <div class="container stats-bar__inner">
+        <div class="stats-bar__item" id="stats-patients">
+          <div class="stats-bar__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><circle cx="9" cy="7" r="4"/><path d="M2 21c0-4 3.1-7 7-7M16 11c2.2 0 4 1.8 4 4M17 21c0-3 1.8-5 5-5"/><circle cx="19" cy="7" r="2"/></svg>
+          </div>
+          <div>
+            <strong class="stats-bar__num" data-target="12000">0</strong><span class="stats-bar__plus">+</span>
+            <p>Happy Patients</p>
+          </div>
+        </div>
+        <div class="stats-bar__divider"></div>
+        <div class="stats-bar__item" id="stats-invisalign">
+          <div class="stats-bar__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4"/></svg>
+          </div>
+          <div>
+            <strong class="stats-bar__num" data-target="2400">0</strong><span class="stats-bar__plus">+</span>
+            <p>Invisalign Cases</p>
+          </div>
+        </div>
+        <div class="stats-bar__divider"></div>
+        <div class="stats-bar__item" id="stats-smiles">
+          <div class="stats-bar__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div>
+            <strong class="stats-bar__num" data-target="1100">0</strong><span class="stats-bar__plus">+</span>
+            <p>Smile Makeovers</p>
+          </div>
+        </div>
+        <div class="stats-bar__divider"></div>
+        <div class="stats-bar__item" id="stats-rating">
+          <div class="stats-bar__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div>
+            <strong class="stats-bar__num-text">4.9/5</strong>
+            <p>Average Rating</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-label" data-animate="fade-up">OUR SERVICES</div>
+        <h2 class="section-heading" data-animate="fade-up">
+          Complete Care for <span class="text-teal">Every Smile</span>
+        </h2>
+
+        <div class="services__grid" data-animate="fade-up">
+
+          <div class="service-card" id="service-cosmetic">
+            <div class="service-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="1.5" stroke-linecap="round"><path d="M12 2C7 2 4 5.5 4 9c0 2 1 4 1 6 0 2.5.5 6 3 6 1.5 0 2-2 3-4 .5-1.5 1-2.5 1-2.5s.5 1 1 2.5c1 2 1.5 4 3 4 2.5 0 3-3.5 3-6 0-2 1-4 1-6 0-3.5-3-7-8-7z"/></svg>
+            </div>
+            <h3>Cosmetic<br/>Dentistry</h3>
+            <p>Transform your smile with confidence.</p>
+            <a href="#contact" class="service-card__arrow" id="service-cosmetic-btn" aria-label="Learn more about Cosmetic Dentistry">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="service-card" id="service-invisalign">
+            <div class="service-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="1.5" stroke-linecap="round"><path d="M3 12C3 7 6 4 12 4s9 3 9 8-3 8-9 8-9-3-9-8z"/><path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"/></svg>
+            </div>
+            <h3>Invisalign<br/>Treatment</h3>
+            <p>Straighten your teeth comfortably.</p>
+            <a href="#contact" class="service-card__arrow" id="service-invisalign-btn" aria-label="Learn more about Invisalign">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="service-card" id="service-veneers">
+            <div class="service-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="1.5" stroke-linecap="round"><path d="M12 3c-4 0-7 3-7 7v3c0 3 2 6 7 6s7-3 7-6v-3c0-4-3-7-7-7z"/><path d="M9 10h6M9 13h4"/></svg>
+            </div>
+            <h3>Veneers</h3>
+            <p>Perfect smile with natural looking veneers.</p>
+            <a href="#contact" class="service-card__arrow" id="service-veneers-btn" aria-label="Learn more about Veneers">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="service-card" id="service-whitening">
+            <div class="service-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+            </div>
+            <h3>Teeth<br/>Whitening</h3>
+            <p>Brighter, whiter smile in just one visit.</p>
+            <a href="#contact" class="service-card__arrow" id="service-whitening-btn" aria-label="Learn more about Teeth Whitening">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="service-card" id="service-implants">
+            <div class="service-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="1.5" stroke-linecap="round"><path d="M12 3C9 3 7 5 7 7c0 1 .5 2 .5 3.5C7.5 13 8 15 10 15h4c2 0 2.5-2 2.5-4.5C16.5 9 17 8 17 7c0-2-2-4-5-4z"/><line x1="12" y1="15" x2="12" y2="21"/><line x1="9" y1="21" x2="15" y2="21"/></svg>
+            </div>
+            <h3>Dental<br/>Implants</h3>
+            <p>Stronger teeth for a better tomorrow.</p>
+            <a href="#contact" class="service-card__arrow" id="service-implants-btn" aria-label="Learn more about Dental Implants">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <div class="service-card" id="service-emergency">
+            <div class="service-card__icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+            </div>
+            <h3>Emergency<br/>Care</h3>
+            <p>We're here when you need us most.</p>
+            <a href="#contact" class="service-card__arrow" id="service-emergency-btn" aria-label="Learn more about Emergency Care">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="services__cta" data-animate="fade-up">
+          <a href="#contact" class="btn btn--outline-teal btn--lg" id="view-all-services-btn">View All Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESULTS ===================== -->
+    <section class="results" id="results">
+      <div class="container results__inner">
+        <!-- Left Text -->
+        <div class="results__content" data-animate="fade-right">
+          <div class="section-label section-label--teal">REAL RESULTS</div>
+          <h2 class="results__heading">
+            Real Smiles.<br />
+            <span class="text-teal">Real Stories.</span>
+          </h2>
+          <p class="results__desc">See the life-changing transformations we create every day.</p>
+          <a href="#contact" class="btn btn--primary results__btn" id="view-results-btn">
+            View More Results
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <!-- Carousel -->
+        <div class="results__carousel-wrap">
+          <div class="results__carousel" id="results-carousel">
+            <div class="result-slide active" id="slide-1">
+              <img src="images/before-after-1.png" alt="Before and after dental transformation - woman" loading="lazy" />
+            </div>
+            <div class="result-slide" id="slide-2">
+              <img src="images/before-after-2.png" alt="Before and after dental transformation - man" loading="lazy" />
+            </div>
+            <div class="result-slide" id="slide-3">
+              <img src="images/before-after-3.png" alt="Before and after dental transformation - woman 2" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="results__carousel-nav">
+            <button class="carousel-btn" id="prev-slide-btn" aria-label="Previous slide">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="carousel-dots" id="carousel-dots">
+              <button class="dot active" data-slide="0" id="dot-0" aria-label="Go to slide 1"></button>
+              <button class="dot" data-slide="1" id="dot-1" aria-label="Go to slide 2"></button>
+              <button class="dot" data-slide="2" id="dot-2" aria-label="Go to slide 3"></button>
+            </div>
+            <button class="carousel-btn carousel-btn--active" id="next-slide-btn" aria-label="Next slide">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY CHOOSE US ===================== -->
+    <section class="why-us" id="about">
+      <div class="container why-us__inner">
+        <!-- Left Image -->
+        <div class="why-us__img-wrap" data-animate="fade-right">
+          <img src="images/bannar-image.png" alt="Dentist treating patient with care" class="why-us__img" loading="lazy" />
+        </div>
+
+        <!-- Right Content -->
+        <div class="why-us__content" data-animate="fade-left">
+          <div class="section-label section-label--teal">→ WHY CHOOSE US</div>
+          <h2 class="why-us__heading">
+            Advanced Care.<br />
+            <span class="text-teal">Personalized for You.</span>
+          </h2>
+
+          <div class="why-us__features">
+            <div class="why-feature" id="why-pain-free">
+              <div class="why-feature__check">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Pain-Free Technology</strong>
+                <p>Gentle treatments with latest technology.</p>
+              </div>
+            </div>
+            <div class="why-feature" id="why-ai-smile">
+              <div class="why-feature__check">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>AI Smile Simulation</strong>
+                <p>Preview your new smile before we begin.</p>
+              </div>
+            </div>
+            <div class="why-feature" id="why-same-day">
+              <div class="why-feature__check">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Same-Day Appointments</strong>
+                <p>Quick care when you need it most.</p>
+              </div>
+            </div>
+            <div class="why-feature" id="why-pricing">
+              <div class="why-feature__check">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Transparent Pricing</strong>
+                <p>No hidden fees. Just honest pricing.</p>
+              </div>
+            </div>
+            <div class="why-feature" id="why-scanning">
+              <div class="why-feature__check">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Digital Scanning</strong>
+                <p>No messy impressions. 100% comfortable.</p>
+              </div>
+            </div>
+            <div class="why-feature" id="why-lounge">
+              <div class="why-feature__check">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Luxury Lounge</strong>
+                <p>Relax in our modern, spa-like environment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DOCTORS ===================== -->
+    <section class="doctors" id="doctors">
+      <div class="container doctors__inner">
+        <!-- Left Heading -->
+        <div class="doctors__heading-wrap" data-animate="fade-right">
+          <div class="section-label section-label--teal">→ MEET OUR DENTISTS</div>
+          <h2 class="doctors__heading">
+            Experts Who<br />
+            <span class="text-teal">Care</span>
+          </h2>
+        </div>
+
+        <!-- Doctor Cards -->
+        <div class="doctors__grid" data-animate="fade-up">
+
+          <div class="doctor-card" id="doctor-sarah">
+            <div class="doctor-card__img-wrap">
+              <img src="images/doctor-ayesha-khan.png" alt="Dr. Sarah Khan - Cosmetic Dentist" loading="lazy" />
+            </div>
+            <div class="doctor-card__info">
+              <strong>Dr. Sarah Khan</strong>
+              <p>Cosmetic Dentist</p>
+              <div class="doctor-card__social">
+                <a href="#" aria-label="Instagram" id="dr-sarah-ig">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="#" aria-label="LinkedIn" id="dr-sarah-li">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="doctor-card" id="doctor-omar">
+            <div class="doctor-card__img-wrap">
+              <img src="images/doctor-omar-farooq.png" alt="Dr. Omar Farooq - Implant Specialist" loading="lazy" />
+            </div>
+            <div class="doctor-card__info">
+              <strong>Dr. Omar Farooq</strong>
+              <p>Implant Specialist</p>
+              <div class="doctor-card__social">
+                <a href="#" aria-label="Instagram" id="dr-omar-ig">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="#" aria-label="LinkedIn" id="dr-omar-li">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="doctor-card" id="doctor-aisha">
+            <div class="doctor-card__img-wrap">
+              <img src="images/doctor-sara-malik.png" alt="Dr. Aisha Malik - Orthodontist" loading="lazy" />
+            </div>
+            <div class="doctor-card__info">
+              <strong>Dr. Aisha Malik</strong>
+              <p>Orthodontist</p>
+              <div class="doctor-card__social">
+                <a href="#" aria-label="Instagram" id="dr-aisha-ig">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="#" aria-label="LinkedIn" id="dr-aisha-li">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="doctor-card" id="doctor-hassan">
+            <div class="doctor-card__img-wrap">
+              <img src="images/doctor-hassan-ali.png" alt="Dr. Hassan Ali - General Dentist" loading="lazy" />
+            </div>
+            <div class="doctor-card__info">
+              <strong>Dr. Hassan Ali</strong>
+              <p>General Dentist</p>
+              <div class="doctor-card__social">
+                <a href="#" aria-label="Instagram" id="dr-hassan-ig">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="#" aria-label="LinkedIn" id="dr-hassan-li">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BOOKING FORM ===================== -->
+    <section class="booking" id="contact">
+      <div class="container booking__inner">
+        <!-- Left CTA -->
+        <div class="booking__left" data-animate="fade-right">
+          <div class="section-label section-label--teal">BOOK YOUR VISIT</div>
+          <h2 class="booking__heading">
+            Your New Smile is<br />
+            <span class="text-teal">Just One Click Away.</span>
+          </h2>
+          <div class="booking__perks">
+            <div class="booking__perk" id="perk-easy">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Quick & Easy Booking
+            </div>
+            <div class="booking__perk" id="perk-confirm">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Instant Confirmation
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Form -->
+        <div class="booking__form-wrap" data-animate="fade-left">
+          <form class="booking__form" id="booking-form" novalidate>
+            <div class="booking__form-row">
+              <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="service-select">Service</label>
+                <div class="select-wrap">
+                  <select id="service-select" name="service" required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option>Cosmetic Dentistry</option>
+                    <option>Invisalign Treatment</option>
+                    <option>Veneers</option>
+                    <option>Teeth Whitening</option>
+                    <option>Dental Implants</option>
+                    <option>Emergency Care</option>
+                  </select>
+                  <svg class="select-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="preferred-date">Preferred Date</label>
+                <div class="input-icon-wrap">
+                  <input type="date" id="preferred-date" name="date" required />
+                  <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="booking__form-row booking__form-row--bottom">
+              <div class="form-group form-group--phone">
+                <label for="phone">Phone / WhatsApp</label>
+                <div class="phone-input-wrap">
+                  <div class="phone-flag">
+                    <span>🇦🇪</span>
+                    <span>+971</span>
+                  </div>
+                  <input type="tel" id="phone" name="phone" placeholder="50 123 4567" required />
+                </div>
+              </div>
+              <button type="submit" class="btn btn--primary btn--book-appt" id="submit-booking-btn">
+                Book My Appointment
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </button>
+            </div>
+
+            <div class="booking__social-proof">
+              <div class="booking__avatars">
+                <img src="images/doctor-ayesha-khan.png" alt="Patient" />
+                <img src="images/doctor-omar-farooq.png" alt="Patient" />
+                <img src="images/doctor-sara-malik.png" alt="Patient" />
+              </div>
+              <span>12,000+ people booked this month!</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M16 3C11 3 7 6.5 7 11C7 13.5 8.5 15.5 8.5 18C8.5 21 9 26 11.5 26C13 26 13.5 24 14.5 22C15 20.5 15.5 19.5 16 19.5C16.5 19.5 17 20.5 17.5 22C18.5 24 19 26 20.5 26C23 26 23.5 21 23.5 18C23.5 15.5 25 13.5 25 11C25 6.5 21 3 16 3Z" fill="#0ea5a0"/></svg>
+          <div>
+            <span class="footer__brand-name">LuxeSmile</span>
+            <span class="footer__brand-sub">DENTAL CLINIC</span>
+          </div>
+        </div>
+        <p class="footer__tagline">We combine advanced technology with a gentle touch to create healthy, beautiful smiles that last a lifetime.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home" id="footer-home">Home</a></li>
+          <li><a href="#about" id="footer-about">About Us</a></li>
+          <li><a href="#services" id="footer-services">Services</a></li>
+          <li><a href="#results" id="footer-results">Results</a></li>
+          <li><a href="#doctors" id="footer-doctors">Doctors</a></li>
+          <li><a href="#contact" id="footer-contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services" id="footer-cosmetic">Cosmetic Dentistry</a></li>
+          <li><a href="#services" id="footer-invisalign">Invisalign</a></li>
+          <li><a href="#services" id="footer-veneers">Veneers</a></li>
+          <li><a href="#services" id="footer-whitening">Teeth Whitening</a></li>
+          <li><a href="#services" id="footer-implants">Dental Implants</a></li>
+          <li><a href="#services" id="footer-emergency">Emergency Care</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contact Us</h4>
+        <ul class="footer__contact-list">
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5 19.79 19.79 0 0 1 1.66 5 2 2 0 0 1 3.62 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 5.5 5.5l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+971541234567">+971 54 123 4567</a>
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:hello@luxesmile.ae">hello@luxesmile.ae</a>
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Al Bateen, Abu Dhabi, UAE</span>
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0ea5a0" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Mon – Sun: 8AM – 9PM</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Follow Us</h4>
+        <div class="footer__social">
+          <a href="#" class="footer__social-icon" id="social-instagram" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="footer__social-icon" id="social-facebook" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="footer__social-icon" id="social-tiktok" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.85a8.2 8.2 0 004.79 1.54V7a4.85 4.85 0 01-1.02-.31z"/></svg>
+          </a>
+          <a href="#" class="footer__social-icon" id="social-linkedin" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+        <div class="footer__clinic-imgs">
+          <img src="images/clinic-interior.png" alt="Clinic interior" />
+          <img src="images/dental-care-procedure.png" alt="Dental care" />
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 LuxeSmile Dental Clinic. All rights reserved.</p>
+        <div class="footer__bottom-links">
+          <a href="#" id="footer-privacy">Privacy Policy</a>
+          <a href="#" id="footer-terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/971541234567" class="whatsapp-fab" id="whatsapp-fab" target="_blank" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Scroll To Top -->
+  <button class="scroll-top" id="scroll-top-btn" aria-label="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
